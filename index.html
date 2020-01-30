@@ -1,0 +1,911 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>My Event</title>
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#" style="font-weight: 500; letter-spacing: 1px">TheEvent</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active first-link">
+                        <a class="nav-link" href="#" data-scroll='.land'>Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll='.about'>About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll='.speakers'>Speakers <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll='.event-schedule'>Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll='.venue'>Venue <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll='.hotels'>Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll='.sponsors'>Sponsors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll='.contact'>Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link tickets rounded-pill border text-white" href="#" data-scroll='.buy-tickets'>Buy Tickets</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Video Overlay -->
+    <div class="video-overlay position-fixed w-100 h-100">
+      <button class="close-video-overlay text-white position-absolute border-0">&times;</button>
+      <div class="embed-responsive embed-responsive-16by9">
+
+          <video class="embed-responsive-item" allowfullscreen controls>
+            <source src="video/video.mp4" type="video/mp4" />
+          </video>
+      </div>
+    </div>
+    <!-- End Video Overlay -->
+    <!-- Start Landing Page -->
+    <div class="land text-center position-relative">
+        <h1 class="h1 text-white text-uppercase font-weight-bold">The Annual<br>
+            <span style="color: #f82249">Marketing</span> Conference</h1>
+        <p class="lead text-white font-weight-bold">
+            10-12 December, Downtown Conference Center, New York
+        </p>
+        <div class="open-video-overlay play d-flex justify-content-center align-items-center position-relative">
+            <i class="fas fa-play text-white"></i>
+        </div>
+        <button class="btn btn-danger rounded-pill" id="ab-event">About The Event</button>
+    </div>
+    <!-- End Landing Page -->
+
+    <!-- Start About Event -->
+    <div class="about position-relative">
+        <div class="container">
+            <div class="row align-content-center pt-5 pb-5">
+                <div class="about-desc col-sm-12 col-md-6">
+                    <h2 class="font-weight-bold">ABOUT THE EVENT</h2>
+                    <p class="text-white mt-4">
+                        Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in est ut optio sequi unde.
+                    </p>
+                </div>
+                <div class="about-desc col-sm-6 col-md-3 mt-sm-4">
+                    <h5 class="text-white">WHERE</h5>
+                    <p class="text-white mt-4">
+                        Downtown Conference Center, New York
+                    </p>
+                </div>
+                <div class="about-desc col-sm-6 col-md-3 mt-sm-4">
+                    <h5 class="text-white">WHEN</h5>
+                    <p class="text-white mt-4">
+                        Monday to Wednesday
+                        10-12 December
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About Event -->
+
+    <!-- Start Speakers -->
+    <div class="speakers">
+        <div class="container-fluid pt-5 pb-5">
+            <h2 class="d-block w-100 text-center font-weight-bold">EVENT SPEAKERS</h2>
+            <p class="share-p d-block w-50 text-center lead mt-2 mb-1 mr-auto ml-auto position-relative pb-3">Here are some of our speakers</p>
+            <div class="row">
+                <div class="speaker overflow-hidden col-sm-6 col-lg-4 position-relative">
+                    <img class="w-100 h-100 sp-img" src="images/speakers/speaker1.jpg" alt="Speaker1" />
+                    <article class="position-absolute text-center">
+                        <h4 class="text-white font-weight-bold">Brenden Legros</h4>
+                        <p class="text-white">Quas alias incidunt</p>
+                        <ul class="list-unstyled d-flex flex-row justify-content-center">
+                            <li><a href="#" class='text-white'><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" class='text-white'><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" class='text-white'><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="#" class='text-white'><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="speaker overflow-hidden col-sm-6 col-lg-4 position-relative">
+                    <img class="w-100 h-100 sp-img" src="images/speakers/speaker2.jpg" alt="Speaker1" />
+                    <article class="position-absolute text-center">
+                        <h4 class="text-white font-weight-bold">Hubert Hirthe</h4>
+                        <p class="text-white">Consequuntur odio aut</p>
+                        <ul class="list-unstyled d-flex flex-row justify-content-center">
+                            <li><a href="#" class='text-white'><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" class='text-white'><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" class='text-white'><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="#" class='text-white'><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="speaker overflow-hidden col-sm-6 col-lg-4 position-relative">
+                    <img class="w-100 h-100 sp-img" src="images/speakers/speaker3.png" alt="Speaker1" />
+                    <article class="position-absolute text-center">
+                        <h4 class="text-white font-weight-bold">Maily Lee</h4>
+                        <p class="text-white">Quas alias incidunt</p>
+                        <ul class="list-unstyled d-flex flex-row justify-content-center">
+                            <li><a href="#" class='text-white'><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" class='text-white'><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" class='text-white'><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="#" class='text-white'><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="speaker overflow-hidden col-sm-6 col-lg-4 position-relative">
+                    <img class="w-100 h-100 sp-img" src="images/speakers/speaker4.png" alt="Speaker1" />
+                    <article class="position-absolute text-center">
+                        <h4 class="text-white font-weight-bold">Cole Emmerich</h4>
+                        <p class="text-white">Fugiat laborum et</p>
+                        <ul class="list-unstyled d-flex flex-row justify-content-center">
+                            <li><a href="#" class='text-white'><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" class='text-white'><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" class='text-white'><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="#" class='text-white'><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="speaker overflow-hidden col-sm-6 col-lg-4 position-relative">
+                    <img class="w-100 h-100 sp-img" src="images/speakers/speaker5.png" alt="Speaker1" />
+                    <article class="position-absolute text-center">
+                        <h4 class="text-white font-weight-bold">Alejandrin Littel</h4>
+                        <p class="text-white">Quas alias incidunt</p>
+                        <ul class="list-unstyled d-flex flex-row justify-content-center">
+                            <li><a href="#" class='text-white'><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" class='text-white'><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" class='text-white'><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="#" class='text-white'><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="speaker overflow-hidden col-sm-6 col-lg-4 position-relative">
+                    <img class="w-100 h-100 sp-img" src="images/speakers/speaker6.png" alt="Speaker1" />
+                    <article class="position-absolute text-center">
+                        <h4 class="text-white font-weight-bold">Jack Christiansen</h4>
+                        <p class="text-white">Debitis iure vero</p>
+                        <ul class="list-unstyled d-flex flex-row justify-content-center">
+                            <li><a href="#" class='text-white'><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" class='text-white'><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" class='text-white'><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="#" class='text-white'><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Speakers -->
+
+    <!-- Start Event Schedule -->
+    <div class="event-schedule pt-5">
+        <div class="container">
+            <div class='row'>
+                <h2 class="w-100 text-center font-weight-bold">EVENT SCHEDULE</h2>
+                <p class="share-p d-block w-50 text-center lead mt-2 mb-1 mr-auto ml-auto position-relative pb-3">Here are some of our speakers</p>
+                <section class="time w-100 mt-5">
+                    <ul class="days list-unstyled w-100 m-auto d-flex justify-content-between flex-wrap">
+                        <li class='text-white text-center font-weight-bold pt-2 pb-2 rounded-pill active-day' data-slide='.day1'>Day1</li>
+                        <li class='text-white text-center font-weight-bold pt-2 pb-2 rounded-pill' data-slide='.day2'>Day2</li>
+                        <li class='text-white text-center font-weight-bold pt-2 pb-2 rounded-pill' data-slide='.day3'>Day3</li>
+                    </ul>
+                    <p class="text-center pr-5 pl-5 mt-4">
+                        Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius necessitatibus voluptatem quis labore perspiciatis quia.
+                    </p>
+                    <div class="time-spec position-relative overflow-hidden">
+                        <ul class="day1 t-schedule top-0 list-unstyled position-absolute w-100 m-auto">
+                            <li class="d-flex border-bottom mt-3">
+                                <span class="font-weight-bold pl-4">9:30 AM</span>
+                                <article>
+                                    <h5 style="color:var(--second-color)" class="font-weight-bold">Registration</h5>
+                                    <p style="color: rgba(24, 56, 174, 0.98)">
+                                        Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia
+                                    </p>
+                                </article>
+                            </li>
+                            <li class="d-flex border-bottom mt-3">
+                                <span class="font-weight-bold pl-4">9:30 AM</span>
+                                <img class="inst-img rounded-pill mr-3" src="images/event-schedule/speaker1.png" alt="Speaker1" />
+                                <article>
+                                    <h5 style="color:var(--second-color)" class="font-weight-bold">Et voluptatem iusto dicta nobis <span class="font-weight-light inst-name">(Matt Hyder)</span></h5>
+                                    <p style="color: rgba(24, 56, 174, 0.98)">
+                                        Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia
+                                    </p>
+                                </article>
+                            </li>
+                            <li class="d-flex border-bottom mt-3">
+                                <span class="font-weight-bold pl-4">9:30 AM</span>
+                                <img class="inst-img rounded-pill mr-3" src="images/event-schedule/speaker2.jpg" alt="Speaker1" />
+                                <article>
+                                    <h5 style="color:var(--second-color)" class="font-weight-bold">Et voluptatem iusto dicta nobis <span class="font-weight-light inst-name">(Matt Hyder)</span></h5>
+                                    <p style="color: rgba(24, 56, 174, 0.98)">
+                                        Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia
+                                    </p>
+                                </article>
+                            </li>
+                            <li class="d-flex border-bottom mt-3">
+                                <span class="font-weight-bold pl-4">9:30 AM</span>
+                                <img class="inst-img rounded-pill mr-3" src="images/event-schedule/speaker3.png" alt="Speaker1" />
+                                <article>
+                                    <h5 style="color:var(--second-color)" class="font-weight-bold">Et voluptatem iusto dicta nobis <span class="font-weight-light inst-name">(Matt Hyder)</span></h5>
+                                    <p style="color: rgba(24, 56, 174, 0.98)">
+                                        Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia
+                                    </p>
+                                </article>
+                            </li>
+                            <li class="d-flex border-bottom mt-3">
+                                <span class="font-weight-bold pl-4">9:30 AM</span>
+                                <img class="inst-img rounded-pill mr-3" src="images/event-schedule/speaker4.png" alt="Speaker1" />
+                                <article>
+                                    <h5 style="color:var(--second-color)" class="font-weight-bold">Et voluptatem iusto dicta nobis <span class="font-weight-light inst-name">(Matt Hyder)</span></h5>
+                                    <p style="color: rgba(24, 56, 174, 0.98)">
+                                        Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia
+                                    </p>
+                                </article>
+                            </li>
+                        </ul>
+                        <ul class="day2 t-schedule top-100 list-unstyled position-absolute w-100 m-auto">
+                            <li class="d-flex border-bottom mt-3">
+                                <span class="font-weight-bold pl-4">9:30 AM</span>
+                                <article>
+                                    <h5 style="color:var(--second-color)" class="font-weight-bold">Registration</h5>
+                                    <p style="color: rgba(24, 56, 174, 0.98)">
+                                        Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia
+                                    </p>
+                                </article>
+                            </li>
+                            <li class="d-flex border-bottom mt-3">
+                                <span class="font-weight-bold pl-4">9:30 AM</span>
+                                <img class="inst-img rounded-pill mr-3" src="images/event-schedule/speaker5.png" alt="Speaker1" />
+                                <article>
+                                    <h5 style="color:var(--second-color)" class="font-weight-bold">Et voluptatem iusto dicta nobis <span class="font-weight-light inst-name">(Matt Hyder)</span></h5>
+                                    <p style="color: rgba(24, 56, 174, 0.98)">
+                                        Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia
+                                    </p>
+                                </article>
+                            </li>
+                            <li class="d-flex border-bottom mt-3">
+                                <span class="font-weight-bold pl-4">9:30 AM</span>
+                                <img class="inst-img rounded-pill mr-3" src="images/event-schedule/speaker6.png" alt="Speaker1" />
+                                <article>
+                                    <h5 style="color:var(--second-color)" class="font-weight-bold">Et voluptatem iusto dicta nobis <span class="font-weight-light inst-name">(Matt Hyder)</span></h5>
+                                    <p style="color: rgba(24, 56, 174, 0.98)">
+                                        Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia
+                                    </p>
+                                </article>
+                            </li>
+                            <li class="d-flex border-bottom mt-3">
+                                <span class="font-weight-bold pl-4">9:30 AM</span>
+                                <img class="inst-img rounded-pill mr-3" src="images/event-schedule/speaker7.png" alt="Speaker1" />
+                                <article>
+                                    <h5 style="color:var(--second-color)" class="font-weight-bold">Et voluptatem iusto dicta nobis <span class="font-weight-light inst-name">(Matt Hyder)</span></h5>
+                                    <p style="color: rgba(24, 56, 174, 0.98)">
+                                        Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia
+                                    </p>
+                                </article>
+                            </li>
+                            <li class="d-flex border-bottom mt-3">
+                                <span class="font-weight-bold pl-4">9:30 AM</span>
+                                <img class="inst-img rounded-pill mr-3" src="images/event-schedule/speaker8.png" alt="Speaker1" />
+                                <article>
+                                    <h5 style="color:var(--second-color)" class="font-weight-bold">Et voluptatem iusto dicta nobis <span class="font-weight-light inst-name">(Matt Hyder)</span></h5>
+                                    <p style="color: rgba(24, 56, 174, 0.98)">
+                                        Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia
+                                    </p>
+                                </article>
+                            </li>
+                        </ul>
+                        <ul class="day3 t-schedule top-100 list-unstyled position-absolute w-100 m-auto">
+                            <li class="d-flex border-bottom mt-3">
+                                <span class="font-weight-bold pl-4">9:30 AM</span>
+                                <article>
+                                    <h5 style="color:var(--second-color)" class="font-weight-bold">Registration</h5>
+                                    <p style="color: rgba(24, 56, 174, 0.98)">
+                                        Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia
+                                    </p>
+                                </article>
+                            </li>
+                            <li class="d-flex border-bottom mt-3">
+                                <span class="font-weight-bold pl-4">9:30 AM</span>
+                                <img class="inst-img rounded-pill mr-3" src="images/event-schedule/speaker9.png" alt="Speaker1" />
+                                <article>
+                                    <h5 style="color:var(--second-color)" class="font-weight-bold">Et voluptatem iusto dicta nobis <span class="font-weight-light inst-name">(Matt Hyder)</span></h5>
+                                    <p style="color: rgba(24, 56, 174, 0.98)">
+                                        Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia
+                                    </p>
+                                </article>
+                            </li>
+                            <li class="d-flex border-bottom mt-3">
+                                <span class="font-weight-bold pl-4">9:30 AM</span>
+                                <img class="inst-img rounded-pill mr-3" src="images/event-schedule/speaker10.png" alt="Speaker1" />
+                                <article>
+                                    <h5 style="color:var(--second-color)" class="font-weight-bold">Et voluptatem iusto dicta nobis <span class="font-weight-light inst-name">(Matt Hyder)</span></h5>
+                                    <p style="color: rgba(24, 56, 174, 0.98)">
+                                        Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia
+                                    </p>
+                                </article>
+                            </li>
+                            <li class="d-flex border-bottom mt-3">
+                                <span class="font-weight-bold pl-4">9:30 AM</span>
+                                <img class="inst-img rounded-pill mr-3" src="images/event-schedule/speaker11.png" alt="Speaker1" />
+                                <article>
+                                    <h5 style="color:var(--second-color)" class="font-weight-bold">Et voluptatem iusto dicta nobis <span class="font-weight-light inst-name">(Matt Hyder)</span></h5>
+                                    <p style="color: rgba(24, 56, 174, 0.98)">
+                                        Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia
+                                    </p>
+                                </article>
+                            </li>
+                            <li class="d-flex border-bottom mt-3">
+                                <span class="font-weight-bold pl-4">9:30 AM</span>
+                                <img class="inst-img rounded-pill mr-3" src="images/event-schedule/speaker12.png" alt="Speaker1" />
+                                <article>
+                                    <h5 style="color:var(--second-color)" class="font-weight-bold">Et voluptatem iusto dicta nobis <span class="font-weight-light inst-name">(Matt Hyder)</span></h5>
+                                    <p style="color: rgba(24, 56, 174, 0.98)">
+                                        Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia
+                                    </p>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!-- End Event Schedule -->
+
+    <!-- Start Venue -->
+    <div class="venue pt-5 pb-5">
+        <div class="container-fluid">
+            <h2 class="w-100 text-center font-weight-bold">Event Venue</h2>
+            <p class="share-p d-block w-50 text-center lead mt-2 mb-1 mr-auto ml-auto position-relative pb-3">Event venue location info and gallery
+            </p>
+            <div class="row mt-5 overflow-hidden">
+                <div class="card text-white p-0 rounded-0 border-0">
+                    <img src="images/hotel1.png" class="card-img rounded-0 h-100" alt="...">
+                    <div class="card-img-overlay" style="background-color: #0e1b4db3">
+                        <h2 class="card-title font-weight-bold pl-5 pr-5 event-header">Downtown Conference Center, New York</h2>
+                        <p class="card-text pl-5 pr-5">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text pl-5 pr-5">Last updated 3 mins ago</p>
+                    </div>
+                </div>
+                <div class="card text-white  p-0 rounded-0 border-0">
+                    <img src="images/hotel2.png" class="card-img rounded-0 h-100" alt="...">
+                    <div class="card-img-overlay" style="background-color: #0e1b4db3">
+                        <h2 class="card-title font-weight-bold pl-5 pr-5 event-header">Card title</h2>
+                        <p class="card-text pl-5 pr-5">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text pl-5 pr-5">Last updated 3 mins ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row overflow-hidden">
+                <div class="card text-white p-0 rounded-0 border-0">
+                    <img src="images/hotel3.png" class="card-img rounded-0 h-100" alt="...">
+                </div>
+                <div class="card text-white p-0 rounded-0 border-0">
+                    <img src="images/hotel4.png" class="card-img rounded-0 h-100" alt="...">
+                </div>
+                <div class="card text-white p-0 rounded-0 border-0">
+                    <img src="images/hotel5.png" class="card-img rounded-0 h-100" alt="...">
+                </div>
+                <div class="card text-white p-0 rounded-0 border-0">
+                    <img src="images/hotel6.png" class="card-img rounded-0 h-100" alt="...">
+                </div>
+            </div>
+
+            <div class="row overflow-hidden">
+                <div class="card text-white p-0 rounded-0 border-0">
+                    <img src="images/hotel7.png" class="card-img rounded-0 h-100" alt="...">
+                </div>
+                <div class="card text-white p-0 rounded-0 border-0">
+                    <img src="images/hotel8.png" class="card-img rounded-0 h-100" alt="...">
+                </div>
+                <div class="card text-white p-0 rounded-0 border-0">
+                    <img src="images/hotel9.png" class="card-img rounded-0 h-100" alt="...">
+                </div>
+                <div class="card text-white p-0 rounded-0 border-0">
+                    <img src="images/hotel10.png" class="card-img rounded-0 h-100" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Venue -->
+
+    <!-- Start Hotels -->
+    <div class="hotels pt-2 pb-5">
+      <div class="container">
+        <h2 class="w-100 text-center font-weight-bold">HOTELS</h2>
+        <p class="share-p d-block w-50 text-center lead mt-2 mb-1 mr-auto ml-auto position-relative pb-3">
+          Event venue location info and gallery
+        </p>
+
+          <div class="card-group mt-5">
+            <div class="row">
+
+
+              <div class="card overflow-hidden col-sm-12 col-md-6 col-lg-4 p-0">
+                <div class='overflow-hidden'><img src="images/hotels/hotel1.png" class="card-img-top w-100"/></div>
+                <div class="card-body">
+                  <h4>Hotel</h4>
+                  <ul class="list-unstyled d-flex flex-row">
+                    <li style="color: #ffc31d; font-size:20px">&#9733;</li>
+                    <li style="color: #ffc31d; font-size:20px">&#9733;</li>
+                    <li style="color: #ffc31d; font-size:20px">&#9733;</li>
+                    <li style="color: #ffc31d; font-size:20px">&#9733;</li>
+                    <li style="font-size:20px">&#9733;</li>
+                  </ul>
+                  <i>0.5 Mile from the Venue</i>
+                </div>
+              </div>
+
+              <div class="card overflow-hidden col-sm-12 col-md-6 col-lg-4 p-0">
+                <div class='overflow-hidden'><img src="images/hotels/hotel2.png" class="card-img-top w-100"/></div>
+                <div class="card-body">
+                  <h4>Hotel</h4>
+                  <ul class="list-unstyled d-flex flex-row">
+                    <li style="color: #ffc31d; font-size:20px">&#9733;</li>
+                    <li style="color: #ffc31d; font-size:20px">&#9733;</li>
+                    <li style="color: #ffc31d; font-size:20px">&#9733;</li>
+                    <li style="color: #ffc31d; font-size:20px">&#9733;</li>
+                    <li style="font-size:20px">&#9733;</li>
+                  </ul>
+                  <i>0.5 Mile from the Venue</i>
+                </div>
+              </div>
+
+              <div class="card overflow-hidden col-sm-12 col-md-6 col-lg-4 p-0">
+                <div class='overflow-hidden'><img src="images/hotels/hotel3.png" class="card-img-top w-100"/></div>
+                <div class="card-body">
+                  <h4>Hotel</h4>
+                  <ul class="list-unstyled d-flex flex-row">
+                    <li style="color: #ffc31d; font-size:20px">&#9733;</li>
+                    <li style="color: #ffc31d; font-size:20px">&#9733;</li>
+                    <li style="color: #ffc31d; font-size:20px">&#9733;</li>
+                    <li style="color: #ffc31d; font-size:20px">&#9733;</li>
+                    <li style="color: #ffc31d; font-size:20px">&#9733;</li>
+                  </ul>
+                  <i>0.5 Mile from the Venue</i>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- End Hotels -->
+
+    <!-- Start Sponsors -->
+    <div class="sponsors overflow-hidden pt-5 pb-5">
+      <div class="container">
+        <h2 class="w-75 text-center font-weight-bold position-relative share-p pb-3 m-auto">SPONSORS</h2>
+
+        <ul class="list-unstyled mt-5 mb-5">
+          <div class="row">
+            <li class="col-sm-6 col-md-4 col-lg-3 bg-white overflow-hidden"><img class='w-100' src="images/brands/brand1.png" alt="brand1"/></li>
+            <li class="col-sm-6 col-md-4 col-lg-3 bg-white overflow-hidden"><img class='w-100' src="images/brands/brand2.png" alt="brand1"/></li>
+            <li class="col-sm-6 col-md-4 col-lg-3 bg-white overflow-hidden"><img class='w-100' src="images/brands/brand3.png" alt="brand1"/></li>
+            <li class="col-sm-6 col-md-4 col-lg-3 bg-white overflow-hidden"><img class='w-100' src="images/brands/brand4.png" alt="brand1"/></li>
+            <li class="col-sm-6 col-md-4 col-lg-3 bg-white overflow-hidden"><img class='w-100' src="images/brands/brand5.png" alt="brand1"/></li>
+            <li class="col-sm-6 col-md-4 col-lg-3 bg-white overflow-hidden"><img class='w-100' src="images/brands/brand6.png" alt="brand1"/></li>
+            <li class="col-sm-6 col-md-4 col-lg-3 bg-white overflow-hidden"><img class='w-100' src="images/brands/brand7.png" alt="brand1"/></li>
+            <li class="col-sm-6 col-md-4 col-lg-3 bg-white overflow-hidden"><img class='w-100' src="images/brands/brand8.png" alt="brand1"/></li>
+          </div>
+        </ul>
+      </div>
+    </div>
+    <!-- End Sponsors -->
+
+    <!-- Start Fag -->
+    <div class="fag pt-5 pb-5">
+      <h2 class="text-center font-weight-bold position-relative share-p pb-3 mb-5 w-50 mr-auto ml-auto">F.A.Q</h2>
+      <div class="container">
+        <div class="accordion w-75 m-auto" id="accordionExample">
+          <div class="card">
+            <div class="card-header p-0" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link w-100 text-left font-weight-bold" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Non consectetur a erat nam at lectus urna duis?
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header p-0" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed w-100 text-left font-weight-bold" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header p-0" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed w-100 text-left font-weight-bold" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header p-0" id="headingFour">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed w-100 text-left font-weight-bold" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Fag -->
+
+    <!-- Start NewLetters -->
+    <div class="newsletter position-relative pt-5 pb-5">
+      <div class="container d-flex justify-content-between flex-column">
+        <h2 class="w-100 text-center font-weight-bold text-white">NEWSLETTER</h2>
+        <p class="share-p d-block w-50 text-center lead mt-2 mb-1 mr-auto ml-auto position-relative pb-3 text-white">
+          Rerum numquam illum recusandae quia mollitia consequatur.
+        </p>
+        <form class="mt-5 w-50 mr-auto ml-auto p-4 d-flex justify-content-between">
+          <input type="text" placeholder="Enter Your Email" class="w-75 rounded-pill border-0 pt-2 pb-2 pl-2 pr-2"/>
+          <button class="rounded-pill border-0 pr-3 pl-3 pt-2 pb-2 text-white">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <!-- End NewLetters -->
+
+    <!-- Start By Tickets -->
+    <div class="buy-tickets pt-5 pb-5">
+      <div class="container p-5">
+        <h2 class="w-100 text-center font-weight-bold">BUY TICKETS</h2>
+        <p class="share-p d-block w-50 text-center lead mt-2 mb-5 mr-auto ml-auto position-relative pb-3">
+          Velit consequatur consequatur inventore iste fugit unde omnis eum aut.
+        </p>
+            <div class="row">
+              <div class="card col-sm-12 col-md-6 col-lg-4">
+                <div class="card-body bg-white">
+                  <h6 class="card-title text-center text-muted">STANDARD ACCESS</h6>
+                  <h1 class="text-center">$150</h1>
+                  <hr>
+                  <ul class="list-unstyled">
+                    <li class="pt-3 pb-3"><i class="fa fa-check mr-3"></i> Regular Seating</li>
+                    <li class="pt-3 pb-3"><i class="fa fa-check mr-3"></i> Coffee Break</li>
+                    <li class="pt-3 pb-3"><i class="fa fa-check mr-3"></i> Custom Badge</li>
+                    <li class="pt-3 pb-3"><i class="fa fa-check mr-3"></i> Community Access</li>
+                    <li class="pt-3 pb-3" style="opacity: .5"><i class="fa fa-times mr-3"></i> Workshop Access</li>
+                    <li class="pt-3 pb-3" style="opacity: .5"><i class="fa fa-times mr-3"></i> After Party</li>
+                    <li class="pt-3 pb-3" style="opacity: .5"><i class="fa fa-times mr-3"></i> Prizes</li>
+                  </ul>
+                  <hr>
+
+                  <div class="d-flex justify-content-center">
+                    <button class="rounded-pill border-0 pt-2 pb-2 pr-5 pl-5 text-white m-auto" data-toggle="modal" data-target="#exampleModal">Buy Now</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Enter Your Name:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Enter Your Email:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Enter Credit Number:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="form-group">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send message</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card col-sm-12 col-md-6 col-lg-4">
+                <div class="card-body bg-white">
+                  <h6 class="card-title text-center text-muted">PRO ACCESS</h6>
+                  <h1 class="text-center">$250</h1>
+                  <hr>
+                  <ul class="list-unstyled">
+                    <li class="pt-3 pb-3"><i class="fa fa-check mr-3"></i> Regular Seating</li>
+                    <li class="pt-3 pb-3"><i class="fa fa-check mr-3"></i> Coffee Break</li>
+                    <li class="pt-3 pb-3"><i class="fa fa-check mr-3"></i> Custom Badge</li>
+                    <li class="pt-3 pb-3"><i class="fa fa-check mr-3"></i> Community Access</li>
+                    <li class="pt-3 pb-3"><i class="fa fa-check mr-3"></i> Workshop Access</li>
+                    <li class="pt-3 pb-3"><i class="fa fa-check mr-3"></i> After Party</li>
+                    <li class="pt-3 pb-3"><i class="fa fa-check mr-3"></i> Prizes</li>
+                  </ul>
+                  <hr>
+                  <div class="d-flex justify-content-center">
+                    <button class="rounded-pill border-0 pt-2 pb-2 pr-5 pl-5 text-white m-auto" data-toggle="modal" data-target="#exampleModal">Buy Now</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Enter Your Name:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Enter Your Email:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Enter Credit Number:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="form-group">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send message</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card col-sm-12 col-md-6 col-lg-4">
+                <div class="card-body bg-white">
+                  <h6 class="card-title text-center text-muted">PREMIUM ACCESS</h6>
+                  <h1 class="text-center">$250</h1>
+                  <hr>
+                  <ul class="list-unstyled">
+                    <li class="pt-3 pb-3"><i class="fa fa-check mr-3"></i> Regular Seating</li>
+                    <li class="pt-3 pb-3"><i class="fa fa-check mr-3"></i> Coffee Break</li>
+                    <li class="pt-3 pb-3"><i class="fa fa-check mr-3"></i> Custom Badge</li>
+                    <li class="pt-3 pb-3"><i class="fa fa-check mr-3"></i> Community Access</li>
+                    <li class="pt-3 pb-3"><i class="fa fa-check mr-3"></i></i> Workshop Access</li>
+                    <li class="pt-3 pb-3" style="opacity: .5"><i class="fa fa-times mr-3"></i> After Party</li>
+                    <li class="pt-3 pb-3" style="opacity: .5"><i class="fa fa-times mr-3"></i> Prizes</li>
+                  </ul>
+                  <hr>
+                  <div class="d-flex justify-content-center">
+                    <button class="rounded-pill border-0 pt-2 pb-2 pr-5 pl-5 text-white m-auto" data-toggle="modal" data-target="#exampleModal">Buy Now</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Enter Your Name:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Enter Your Email:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Enter Credit Number:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="form-group">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send message</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+    <!-- End By Tickets -->
+
+    <!-- Start Contact -->
+    <div class="contact pt-5 pb-4">
+      <div class="container">
+        <h2 class="w-100 text-center font-weight-bold">CONTACT US</h2>
+        <p class="share-p d-block w-50 text-center lead mt-2 mb-5 mr-auto ml-auto position-relative pb-3">
+          Nihil officia ut sint molestiae tenetur.
+        </p>
+        <div class="contact-info">
+          <ul class="list-unstyled row">
+            <li class="pt-5 pb-5 col-lg-4 col-sm-6 text-center">
+              <h4 class="font-weight-bold mb-3">ADDRESS</h4>
+              <span style="color: #112363">A108 Adam Street, NY 535022, USA</span>
+            </li>
+            <li class="border-right border-left text-center pt-5 pb-5 col-lg-4 col-sm-6">
+              <h4 class="font-weight-bold mb-3">ADDRESS</h4>
+              <span style="color: #4869df">A108 Adam Street, NY 535022, USA</span>
+            </li>
+            <li class="pt-5 pb-5 col-lg-4 col-sm-6 text-center">
+              <h4 class="font-weight-bold mb-3">ADDRESS</h4>
+              <span style="color: #4869df">A108 Adam Street, NY 535022, USA</span>
+            </li>
+          </ul>
+        </div>
+        <form class="row mt-5 justify-content-between">
+          <div class="col-lg-6 mt-3 mb-3">
+            <input type="text" placeholder="Enter Your Name" class='w-100 pt-2 pb-2 pr-2 pl-2 border-1'/>
+          </div>
+          <div class="col-lg-6">
+            <input type="email" placeholder="Enter Your Email" class='w-100 pt-2 pb-2 pr-2 pl-2 border-1'/>
+          </div>
+          <div class="col-lg-12 mt-3">
+            <input type="text" placeholder="Subject" class='col-lg-12 pt-2 pb-2'/>
+            <textarea class='col-lg-12 mt-2 pt-2 pb-2' placeholder="Message"></textarea>
+          </div>
+          <div class="col-lg-12 mt-4 ">
+            <button class="text-white border-0 pt-2 pb-2 pr-4 pl-4 rounded-pill ">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End Contact -->
+
+    <!-- Start Footer -->
+    <footer class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <h6 class="h1 text-white">TheEvent</h6>
+            <p class="text-muted">
+              In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.
+            </p>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <h6 class="text-white pb-3 mt-2">USEFUL LINKS</h6>
+            <ul class="list-unstyled">
+              <li class="pt-2 pb-2"><i class="fa fa-angle-right mr-2"></i><a href="#" class="text-white">Home</a></li>
+              <li class="pt-2 pb-2"><i class="fa fa-angle-right mr-2"></i><a href="#" class="text-white">About Us</a></li>
+              <li class="pt-2 pb-2"><i class="fa fa-angle-right mr-2"></i><a href="#" class="text-white">Services</a></li>
+              <li class="pt-2 pb-2"><i class="fa fa-angle-right mr-2"></i><a href="#" class="text-white">Terms Of Service</a></li>
+              <li class="pt-2 pb-2"><i class="fa fa-angle-right mr-2"></i><a href="#" class="text-white">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <h6 class="text-white pb-3 mt-2">USEFUL LINKS</h6>
+            <ul class="list-unstyled">
+              <li class="pt-2 pb-2"><i class="fa fa-angle-right mr-2"></i><a href="#" class="text-white">Home</a></li>
+              <li class="pt-2 pb-2"><i class="fa fa-angle-right mr-2"></i><a href="#" class="text-white">About Us</a></li>
+              <li class="pt-2 pb-2"><i class="fa fa-angle-right mr-2"></i><a href="#" class="text-white">Services</a></li>
+              <li class="pt-2 pb-2"><i class="fa fa-angle-right mr-2"></i><a href="#" class="text-white">Terms Of Service</a></li>
+              <li class="pt-2 pb-2"><i class="fa fa-angle-right mr-2"></i><a href="#" class="text-white">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <h6 class="text-white pb-3 mt-2">USEFUL LINKS</h6>
+            <article class="text-muted">
+              A108 Adam Street
+              New York, NY 535022
+              United States
+              Phone: +1 5589 55488 55
+              Email: info@example.com
+            </article>
+            <ul class="list-unstyled d-flex mt-3 justify-content-between">
+              <li class=""><a href="#" class="text-white p-3 d-block h-100"><i class="fab fa-facebook-f"></i></a></li>
+              <li class=""><a href="#" class="text-white p-3 d-block h-100"><i class="fab fa-twitter"></i></a></li>
+              <li class=""><a href="#" class="text-white p-3 d-block h-100"><i class="fab fa-instagram"></i></a></li>
+              <li class=""><a href="#" class="text-white p-3 d-block h-100"><i class="fab fa-google-plus-g"></i></a></li>
+              <li class=""><a href="#" class="text-white p-3 d-block h-100"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+
+    </footer>
+    <div class="copyrights col text-center pt-4 pb-4 text-white">
+      © Copyright TheEvent. All Rights Reserved<br>
+      Designed by <span style="color: var(--main-color)" class="font-weight-bold">Mohamed Abdel Nasser</span>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Scroll To Top -->
+    <button class="back-to-top border-0 text-white" style="background-color: var(--main-color)">
+      <i class="fas fa-angle-up fa-2x"></i>
+    </button>
+    <!-- Scroll To Top -->
+
+    <div class="load">
+      <div class="spinner-grow" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- My Js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
